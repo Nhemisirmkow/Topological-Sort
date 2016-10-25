@@ -1,0 +1,15 @@
+Pliki do zadania Sortowanie Topologiczne.
+Autor: Marcin Michorzewski
+Code Reveiw : Szymon Pajzert
+
+Archiwum zawiera:
+1. Pliki niezbędne (a wśród nich rozwiązanie zaimplementowane w topol.ml): topol.mli, pMap.mli, pMap.ml, topol.ml.
+2. Plik tekstowy "testy osobne", który zawiera przykładowe testy na których był testowany program
+3. Plik "makefile" oraz "test.ml", które stanowią sprawdzaczkę zadania. Jest ona własnością Szymona Pajzerta i została użyczona
+   na potrzeby testowania zadania. Generuje ona losowe grafy acykliczne o wierzchołkach będących liczbami całkowitymi. Sprawdzaczka
+   sprawdza poprawność oraz czas wykonywania programu. Komenda tworząca program sprawdzający: "make"
+
+Progrma został przetestowany na testach z pliku "testy osobne" oraz na 1000000 testach losowych w sprawdzaczce, na seedach 16, 81, 121, 13
+22, 1, 9, 8, 4, 80, 35 i wielkościach testów od 1 do 1000000. Nie wykryto błędu. Rekordy czasowe - akceptowalne. Wniosek - program działa.
+
+Treść zadania znajduje się w pliku: Topological Sort [Ocaml, Polish].
